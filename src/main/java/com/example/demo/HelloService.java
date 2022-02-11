@@ -8,4 +8,8 @@ public class HelloService {
     public String hello() {
         return "hello";
     }
+    
+    public String hi() {
+        return "hi ko ko aye";
+    }
 }
