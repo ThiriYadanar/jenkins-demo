@@ -16,6 +16,6 @@ class HelloServiceTest {
 
     @Test
     void helloが取得できるか() {
-        assertThat(helloService.hello()).isEqualTo("helloo");
+        assertThat(helloService.hello()).isEqualTo("hiiii");
     }
 }
