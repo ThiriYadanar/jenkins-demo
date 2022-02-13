@@ -23,4 +23,19 @@ class HelloServiceTest {
     void hiが取得できるか() {
         assertThat(helloService.hi()).isEqualTo("hi r juu shee");
     }
+    
+    @Test
+    void hi1が取得できるか() {
+        assertThat(helloService.hi()).isEqualTo("hi");
+    }
+    
+    @Test
+    void hi2が取得できるか() {
+        assertThat(helloService.hi()).isEqualTo("hi");
+    }
+    
+    @Test
+    void hi3が取得できるか() {
+        assertThat(helloService.hi()).isEqualTo("hi");
+    }
 }
