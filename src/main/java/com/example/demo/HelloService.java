@@ -10,6 +10,6 @@ public class HelloService {
     }
     
     public String hi() {
-        return "hi ko ko aye";
+        return "hi";
     }
 }
